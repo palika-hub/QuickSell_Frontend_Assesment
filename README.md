@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Kanban Board Assessment - [Quick Sell]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The goal of this project is to develop an interactive Kanban board application using **React JS** that interacts with the provided API. The Kanban board allows users to group tickets in three distinct ways, sort them, and dynamically adjust the board based on user input.
 
-## Available Scripts
+### API Link: 
+[QuickSell API](https://api.quicksell.co/v1/internal/frontend-assignment)
 
-In the project directory, you can run:
+### Live Application Link:
+[Kanban Board Live Demo](https://quicksellkanbanboard.onrender.com/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirements:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features:
+- **Dynamic Grouping:** The application should allow the user to group tickets in three distinct ways:
+  1. By **Priority**
+  2. By **Status**
+  3. By **Assignee**
 
-### `npm test`
+- **Dynamic Sorting:** Users should be able to sort the displayed tickets in two ways:
+  1. By **Title**
+  2. By **Groups** (Priority, Status, or Assignee)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Interaction:** A "Display" button should allow users to select a grouping option. The Kanban board should update dynamically based on the selected grouping and sorting criteria.
 
-### `npm run build`
+- **API Interaction:** The application should fetch and display ticket data from the provided API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Evaluation Criteria:
+1. **UI Accuracy:** The UI must look exactly like the provided screenshots.
+2. **Functionality:** Group and sort tickets dynamically based on user interaction.
+3. **API Integration:** Correct interaction with the provided API to retrieve and display the data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Setup:
+1. **React**
+2. **CSS**
+3. **HTML**
 
-### `npm run eject`
+## Images of Website
+### Grouping based on User
+![Alt Text](./User.jpg)
+### Grouping based on Status
+![Alt Text](./Status.jpg)
+### Grouping based on Priority
+![Alt Text](./priority.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation Steps:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>

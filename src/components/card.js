@@ -153,7 +153,7 @@ function Card({ ticket, user, groupingOption, userAvatars }) {
             <p style={{
               color: '#6e6d72',
               fontSize: '12px',
-              fontFamily: 'fantasy',
+              fontFamily: 'serif',
               margin: 0,
             }}>{ticket.tag.join(', ')}</p>
           </div>
