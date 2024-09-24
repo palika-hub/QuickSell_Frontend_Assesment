@@ -112,12 +112,13 @@ function Card({ ticket, user, groupingOption, userAvatars }) {
       </div>
 
       {/* Priority Icon */}
-      {groupingOption !== 'Priority' && (
+      {/* {groupingOption !== 'Priority' && ( */}
         <div style={{
           width: '100%',
           display: 'flex',
           alignItems: 'center',
         }}>
+          {groupingOption !== 'Priority' && (
           <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -132,6 +133,7 @@ function Card({ ticket, user, groupingOption, userAvatars }) {
           }}>
             <img src={priorityIcon} style={{ width: '14px', height: '14px' }} alt="Priority" />
           </div>
+          )}
           {/* Tag */}
           <div style={{
             display: 'flex',
@@ -158,7 +160,7 @@ function Card({ ticket, user, groupingOption, userAvatars }) {
             }}>{ticket.tag.join(', ')}</p>
           </div>
         </div>
-      )}
+      {/* // )} */}
     </div>
   );
 }
