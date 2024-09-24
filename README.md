@@ -45,7 +45,7 @@ The goal of this project is to develop an interactive Kanban board application u
 ### Grouping based on Status
 ![Alt Text](./Status.png)
 ### Grouping based on Priority
-![Alt Text](./priority.png)
+![Alt Text](./Priority.png)
 
 ### Installation Steps:
 1. Clone the repository:
