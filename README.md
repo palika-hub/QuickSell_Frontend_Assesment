@@ -41,11 +41,11 @@ The goal of this project is to develop an interactive Kanban board application u
 
 ## Images of Website
 ### Grouping based on User
-![Alt Text](./User.jpg)
+![Alt Text](./User.png)
 ### Grouping based on Status
-![Alt Text](./Status.jpg)
+![Alt Text](./Status.png)
 ### Grouping based on Priority
-![Alt Text](./priority.jpg)
+![Alt Text](./priority.png)
 
 ### Installation Steps:
 1. Clone the repository:
